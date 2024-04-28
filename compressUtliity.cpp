@@ -1,3 +1,4 @@
+using namespace std; 
 namespace CompressUtility {
 
 

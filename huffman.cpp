@@ -1,3 +1,4 @@
+using namespace std; 
 namespace Huffman {
 string extension=".shasin";
  string HuffmanValue[256] = {""};
