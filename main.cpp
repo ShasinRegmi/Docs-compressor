@@ -12,5 +12,7 @@
 #include <stdlib.h>
 
 #include<huffman.cpp>
+#include<Utility.cpp>
+#include<compressUtliity.cpp>
 
 using namespace std; 
