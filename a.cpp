@@ -18,7 +18,6 @@
 
 using namespace std; 
 
-using namespace Huffman;
 
 int main(int argc, char *argv[]) {
     if(argc != 3) {
