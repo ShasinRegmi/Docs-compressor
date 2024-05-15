@@ -52,7 +52,7 @@ int main(int argc, char *argv[]) {
 	    
 	        CompressUtility::compress(new_folder,filename, filesize, predfilesize);
 	        
-	        //cout<<string(filename)+extension<<endl<<"..\\"+foldername+"-compressed"+"\\"+string(filename)+extension<<endl;
+	       
 	    }
 	    cout<<"Original Size:"<< filesize <<"bytes"<<endl;
 	    cout << "Compressed Size (without header): " << compressedSie << " bytes" << std::endl;
@@ -88,3 +88,6 @@ int main(int argc, char *argv[]) {
     }
     return 0;
 }
+
+
+ //cout<<string(filename)+extension<<endl<<"..\\"+foldername+"-compressed"+"\\"+string(filename)+extension<<endl;
