@@ -18,7 +18,6 @@
 
 using namespace std; 
 
-
 int main(int argc, char *argv[]) {
     if(argc != 3) {
     
@@ -52,7 +51,11 @@ int main(int argc, char *argv[]) {
 	    
 	        CompressUtility::compress(new_folder,filename, filesize, predfilesize);
 	        
+<<<<<<< HEAD
 	       
+=======
+	        
+>>>>>>> c2fa84c2a9f51fdec4f862be7eb7bcd579dd812b
 	    }
 	    cout<<"Original Size:"<< filesize <<"bytes"<<endl;
 	    cout << "Compressed Size (without header): " << compressedSie << " bytes" << std::endl;
@@ -88,6 +91,11 @@ int main(int argc, char *argv[]) {
     }
     return 0;
 }
+<<<<<<< HEAD
 
 
  //cout<<string(filename)+extension<<endl<<"..\\"+foldername+"-compressed"+"\\"+string(filename)+extension<<endl;
+=======
+// Run the program using the following command
+//cout<<string(filename)+extension<<endl<<"..\\"+foldername+"-compressed"+"\\"+string(filename)+extension<<endl;
+>>>>>>> c2fa84c2a9f51fdec4f862be7eb7bcd579dd812b
