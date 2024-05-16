@@ -3,7 +3,6 @@ namespace Huffman {
 string extension=".shasin";
  string HuffmanValue[256] = {""};
 
-
 class Node {
    public:
     char character;
